@@ -5,7 +5,7 @@ listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
-engine.say('i am your Speech to Text tool')
+engine.say('i am your Speech to Text assistant')
 engine.say('Say something to convert')
 engine.runAndWait()
 try:
